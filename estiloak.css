@@ -18,3 +18,13 @@
     flex: 0.75;
     background-color: lightblue;
 } 
+
+input-pair {
+    display: flex;          /* Place items side-by-side */
+    align-items: center;     /* Vertically align text and input */
+    margin-bottom: 10px;     /* Add some space between each row */
+}
+.input-pair p {
+    margin-right: 10px;      /* Space between label and input */
+    min-width: 80px;         /* Set a minimum width for labels */
+}
